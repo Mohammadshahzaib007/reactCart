@@ -1,0 +1,18 @@
+.Main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+}
+
+.Main h1 {
+   color: #fff;
+    word-spacing: 3px;
+   font-weight: 400;
+    
+}

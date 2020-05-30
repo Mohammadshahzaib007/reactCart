@@ -1,0 +1,35 @@
+.Footer {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, .8);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer h1 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #eee;
+    text-transform: uppercase;
+    transition: all .4s;
+    cursor: no-drop;
+}
+
+.Footer h1 span:hover {
+    color: lightgreen;
+}
+
+.Rotate {
+    display: inline-block;
+    transition: all .4s;
+}
+
+.Rotate:hover {
+    padding: 6px;
+    background-color: #000;
+      transform: rotate(5deg) translateY(-2px); 
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, .256);
+}

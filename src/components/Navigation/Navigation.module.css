@@ -1,0 +1,37 @@
+
+.NavContianer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Logo {
+ font-style: italic;
+    margin-top: 20px;
+}
+
+.Mania {
+    margin-top: 20px;
+}
+
+.cartDiv {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.Link {
+    font-size: 18px;
+    text-decoration: none;
+    color: #F9913E;
+    text-transform: uppercase;
+    transform: translate(0);
+    transition: all .4s;
+    font-weight: 700;
+}
+
+.Link:hover {
+    color: lightgreen;
+    transform: translate(-1);
+}
+
